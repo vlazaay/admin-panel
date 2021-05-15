@@ -21,7 +21,7 @@ class PositionController extends Controller
         return view('form');
     }
 
-    public function store($request)
+    public function store(Request $request)
     {
         $admin_id = Auth::id();
         //dd($admin_id);
